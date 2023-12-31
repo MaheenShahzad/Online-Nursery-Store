@@ -1,0 +1,35 @@
+div.container {
+  width: 1090px;
+  height: 100px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+}
+
+.left {
+  position: absolute;
+  left: 0;
+  animation: slideInLeft 2s forwards;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  animation: slideInRight 2s forwards;
+}
+
+@keyframes slideInLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}

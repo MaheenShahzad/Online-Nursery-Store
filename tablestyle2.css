@@ -1,0 +1,35 @@
+
+	
+	/*div class="oval"> 
+		<div class="text">
+			<p>Login</p>
+		</div>
+	</div>*/
+			
+		
+.logins {
+  display: flex;
+  justify-content: right;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 75px;
+  margin-left: 60px;
+}
+
+.login {
+  padding: 10px 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.oval{
+	 height: 50px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+

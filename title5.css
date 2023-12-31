@@ -1,0 +1,114 @@
+
+  .container5 {
+    width: 760px;
+    height: 120px;
+	background-color: white;
+	 border-style: solid;
+	 border-color:black;
+	/* opacity: 0.85;*/
+    overflow: hidden;
+    position: relative;
+   text-align: center;
+    /*font-size: 300px
+    line-height: 300px;*/
+    white-space: nowrap;
+  }
+
+  .left5 {
+    position: absolute;
+    left: -50%;
+    animation: slideInLeft 2s forwards;
+  }
+
+  .right5{
+    position: absolute;
+    right: -40%;
+    animation: slideInRight 2s forwards;
+	opacity:1;
+  }
+ 
+  @keyframes slideInLeft {
+    0% { left: -100%; }
+    100% { right: 0; }
+  }
+
+  @keyframes slideInRight {
+    0% { right: -100%; }
+    100% { left: 0; }
+  }
+
+.container6 {
+    width: 960px;
+    height: 120px;
+	background-color: white;
+	 border-style: solid;
+	 border-color:black;
+	 opacity: 0.85;
+    overflow: hidden;
+    position: relative;
+   text-align: center;
+    /*font-size: 300px
+    line-height: 300px;*/
+    white-space: nowrap;
+  }
+
+  .left6 {
+    position: absolute;
+    left: -50%;
+    animation: slideInLeft 2s forwards;
+  }
+
+  .right6{
+    position: absolute;
+    right: -40%;
+    animation: slideInRight 2s forwards;
+	opacity:1;
+  }
+ 
+  @keyframes slideInLeft {
+    0% { left: -100%; }
+    100% { right: 0; }
+  }
+
+  @keyframes slideInRight {
+    0% { right: -100%; }
+    100% { left: 0; }
+  }
+
+.container7 {
+    width: 960px;
+    height: 120px;
+	background-color: white;
+	 border-style: solid;
+	 border-color:black;
+	 opacity: 0.85;
+    overflow: hidden;
+    position: relative;
+   text-align: center;
+    /*font-size: 300px
+    line-height: 300px;*/
+    white-space: nowrap;
+  }
+
+  .left7 {
+    position: absolute;
+    left: -40%;
+    animation: slideInLeft 2s forwards;
+  }
+
+  .right7{
+    position: absolute;
+    right: -40%;
+    animation: slideInRight 2s forwards;
+	opacity:1;
+  }
+ 
+  @keyframes slideInLeft {
+    0% { left: -100%; }
+    100% { right: 0; }
+  }
+
+  @keyframes slideInRight {
+    0% { right: -100%; }
+    100% { left: 0; }
+  }

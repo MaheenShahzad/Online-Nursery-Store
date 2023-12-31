@@ -1,0 +1,46 @@
+
+  .container2 {
+    width: 1090px;
+    height: 150px;
+	background-color: white;
+	 border-style: solid;
+	 border-color:black;
+	 opacity: 0.8;
+    overflow: hidden;
+    position: relative;
+   text-align: center;
+    /*font-size: 300px
+    line-height: 300px;*/
+    white-space: nowrap;
+  }
+
+  .left2 {
+    position: absolute;
+    left: -32%;
+    animation: slideInLeft 2s forwards;
+  }
+
+  .right2 {
+    position: absolute;
+    right: -47%;
+    animation: slideInRight 2s forwards;
+	opacity:1;
+  }
+ 
+  @keyframes slideInLeft {
+    0% { left: -100%; }
+    100% { right: 0; }
+  }
+
+  @keyframes slideInRight {
+    0% { right: -100%; }
+    100% { left: 0; }
+  }
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}

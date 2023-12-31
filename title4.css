@@ -1,0 +1,39 @@
+
+  .container4 {
+    width: 1090px;
+    height: 150px;
+	background-color: white;
+	 border-style: solid;
+	 border-color:black;
+	 opacity: 0.85;
+    overflow: hidden;
+    position: relative;
+   text-align: center;
+    /*font-size: 300px
+    line-height: 300px;*/
+    white-space: nowrap;
+  }
+
+  .left4 {
+    position: absolute;
+    left: -40%;
+    animation: slideInLeft 2s forwards;
+  }
+
+  .right4{
+    position: absolute;
+    right: -38.5%;
+    animation: slideInRight 2s forwards;
+	opacity:1;
+  }
+ 
+  @keyframes slideInLeft {
+    0% { left: -100%; }
+    100% { right: 0; }
+  }
+
+  @keyframes slideInRight {
+    0% { right: -100%; }
+    100% { left: 0; }
+  }
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .container {
+    width:44%;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    line-height: 200px;
+  }
+
+  .split {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: transform 1s, opacity 1s;
+  }
+  .left {
+    left: 0;
+    transform: translateX(-100%);
+  }
+
+  .right {
+    right: 0;
+    transform: translateX(100%);
+  }
+
+.container:not(:hover) .split {
+    transform: translateX(0);
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <span class="split left">Welcome To GARDEN'S TREASURE &nbsp;</span>
+    <span class="split right">online nursery shop</span>
+    <!-- <span class="split left">Move</span>
+    <span class="split right">From</span>
+    <span class="split left">Left</span>
+    <span class="split right">Towards</span>
+    <span class="split left">Center</span>
+    <span class="split right">Right</span>-->
+  </div>
+</body>
+</html>
